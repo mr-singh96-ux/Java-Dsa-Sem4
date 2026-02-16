@@ -7,5 +7,8 @@ public static void main(String[] args) {
             count++;
     }
     System.out.println("Number of 1s: " + count);
+    
+    int cn = Integer.bitCount(13);
+    System.out.println(cn);
 }
 }
